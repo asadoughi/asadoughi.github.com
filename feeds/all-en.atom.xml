@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Prince Honest</title><link href="http://www.princehonest.com/" rel="alternate"></link><link href="http://www.princehonest.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.princehonest.com/</id><updated>2013-03-10T00:00:00-06:00</updated><entry><title>Hello, world!</title><link href="http://www.princehonest.com/hello-world.html" rel="alternate"></link><updated>2013-03-10T00:00:00-06:00</updated><author><name>Amir Sadoughi</name></author><id>tag:www.princehonest.com,2013-03-10:hello-world.html</id><summary type="html">&lt;p&gt;Hello, world! This is my first blog post on PrinceHonest.com. It's also my first
+time using a static blogging platform. In this case, it's Pelican. Sweet.&lt;/p&gt;
+</summary></entry></feed>
