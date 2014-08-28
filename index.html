@@ -25,24 +25,45 @@
 
 
 </head>
-<body class="home blog">
-    <div id="wrap" style="width:850px">
-        <div id="container" style="width:560px">
+<body>
+    <section class="social">
+        <ul>
+        
+            <li><a href="#" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="http://princehonest.com" title="About me"><i class="icon-user"></i></a></li>
+            <li><a href="https://twitter.com/princehonest" title="My Twitter"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/asadoughi" title="My Github"><i class="icon-github"></i></a></li>
+
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
             
+        <div class="post">
+            <h1 class="title"><a href="posts/why-mobile-is-broken-for-me.html">Why mobile is broken for me</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2013-06-23T00:08:18-05:00">2013-06-23 00:08</time>
+                </div>
+                <div class="stats">
+                    
+
+                </div>
             
-        <div class="postbox">
-        <h1><a href="posts/why-mobile-is-broken-for-me.html">Why mobile is broken for me</a></h1>
-            <div class="meta" style="background-color: rgb(234, 234, 234); ">
-                <span class="authordate">
-                    Posted: <time class="published" datetime="2013-06-23T00:08:18-05:00">2013-06-23 00:08</time>
-                </span>
-                <br>
-                <span class="tags">Tags: 
-                            <a class="tag" href="categories/future.html"><span>future</span></a>
-                            <a class="tag" href="categories/mobile.html"><span>mobile</span></a>
-                </span>
+        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/future.html" rel="tag">future</a></li>
+           <li><a class="tag p-category" href="categories/mobile.html" rel="tag">mobile</a></li>
+        </ul>
+        </div>
+
             </div>
-        <p>Today I walk around with me three things on my person: a wallet, a smartphone,
+            <div class="body">
+                <p>Today I walk around with me three things on my person: a wallet, a smartphone,
 and a set of keys. Why can't these three things all be the same device? In
 addition, I pay to carry a mobile hotspot around as a separate device sometimes.
 Why can't I use my phone as a mobile hotspot regularly with real unlimited data?
@@ -87,64 +108,50 @@ to me.</p>
 <p>These are all small, solvable modern problems. A decade from now I look forward
 to this technology becoming obsolete. We'll see where we're headed next then.</p>
 </div>
-            
-
-        </div>
-        <div class="postbox">
-        <h1><a href="posts/hello-world.html">Hello, world!</a></h1>
-            <div class="meta" style="background-color: rgb(234, 234, 234); ">
-                <span class="authordate">
-                    Posted: <time class="published" datetime="2013-06-22T22:31:45-05:00">2013-06-22 22:31</time>
-                </span>
-                <br>
-                <span class="tags">Tags: 
-                            <a class="tag" href="categories/meta.html"><span>meta</span></a>
-                </span>
             </div>
-        This is my first post on Nikola!
-            
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/hello-world.html">Hello, world!</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2013-06-22T22:31:45-05:00">2013-06-22 22:31</time>
+                </div>
+                <div class="stats">
+                    
 
+                </div>
+            
+        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/meta.html" rel="tag">meta</a></li>
+        </ul>
+        </div>
+
+            </div>
+            <div class="body">
+                This is my first post on Nikola!
+            </div>
         </div>
     
 
     
 
-	
-
-
-        </div>
-        <div id="sidebar">
-            <!--Sidebar content-->
-            <h1 id="blog-title">
-                <a href="http://blog.princehonest.com/" title="Amir Sadoughi">Amir Sadoughi</a>
-            </h1>
-            
-            
-            <ul class="unstyled">
-            <li>
-            
-                <li>
-<a href="archive.html">Archive</a>
-                </li>
-<li>
-<a href="categories/index.html">Tags</a>
-                </li>
-<li>
-<a href="rss.xml">RSS feed</a>
-
-            </li>
-<li>
-            
-            
-            </ul>
-        </div>
-        <div id="footer">
-            Contents © 2014         <a href="mailto:me@princehonest.com">Amir Sadoughi</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
-            
-        </div>
-    </div>
     
-            <script src="assets/js/all-nocdn.js"></script>
+
+
+             
+        <footer id="footer" role="contentinfo">
+            <p>Contents © 2014         <a href="mailto:me@princehonest.com">Amir Sadoughi</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+
+        </div>
+    </section>
+    
+    
+    
+            <script src="assets/js/all-nocdn.js" type="text/javascript"></script>
     
 <!-- Social buttons -->
 <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
@@ -168,9 +175,12 @@ to this technology becoming obsolete. We'll see where we're headed next then.</p
 <!-- End of social buttons -->
 
 
-    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     
-    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
     
 </body>
 </html>

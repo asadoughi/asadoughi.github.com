@@ -21,37 +21,67 @@
     
 
 
+    
 
+    <meta name="author" content="Amir Sadoughi">
+    
+        <meta name="og:title" content="Hello, world!">
+        <meta name="og:url" content="http://blog.princehonest.com/posts/hello-world.html">
+            <meta name="og:description" content="This is my first post on Nikola!">
+        <meta name="og:site_name" content="Amir Sadoughi">
+        <meta name="og:type" content="article">
+
+    
+
+    
 
 
 
 </head>
-<body class="home blog">
-    <div id="wrap" style="width:850px">
-        <div id="container" style="width:560px">
-            
+<body>
+    <section class="social">
+        <ul>
+        
+            <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="http://princehonest.com" title="About me"><i class="icon-user"></i></a></li>
+            <li><a href="https://twitter.com/princehonest" title="My Twitter"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/asadoughi" title="My Github"><i class="icon-github"></i></a></li>
+
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
             
     <div class="post">
     
-    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Hello, world!</a></h1>
+    <h1 class="p-name entry-title" itemprop="headline name">Hello, world!</h1>
 
-        <div class="meta" style="background-color: rgb(234, 234, 234); ">
-        <span class="authordate">
-            Posted: <time class="published" datetime="2013-06-22T22:31:45-05:00">2013-06-22 22:31</time>
-               [<a href="hello-world.txt" id="sourcelink">Source</a>]
-        </span>
-        <br>
-                <span class="tags">Tags: 
-                    <a class="tag" href="../categories/meta.html"><span>meta</span></a>
-                </span>
-                <br>
-        <span class="authordate">
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2013-06-22T22:31:45-05:00">2013-06-22 22:31</time>
             
 
-        </span>
+            
+          |  
+        <a href="hello-world.txt" id="sourcelink">Source</a>
+
+            </div>
+            
+        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="../categories/meta.html" rel="tag">meta</a></li>
+        </ul>
         </div>
-    This is my first post on Nikola!
-    
+
+        </div>
+        <div class="body">
+            This is my first post on Nikola!
+        </div>
+        
         <ul class="pager">
             <li class="next">
                 <a href="why-mobile-is-broken-for-me.html" rel="next" title="Why mobile is broken for me">Next post</a>
@@ -60,43 +90,22 @@
 
         
 
-    
-
     </div>
 
-        </div>
-        <div id="sidebar">
-            <!--Sidebar content-->
-            <h1 id="blog-title">
-                <a href="http://blog.princehonest.com/" title="Amir Sadoughi">Amir Sadoughi</a>
-            </h1>
-            
-            
-            <ul class="unstyled">
-            <li>
-            
-                <li>
-<a href="../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../categories/index.html">Tags</a>
-                </li>
-<li>
-<a href="../rss.xml">RSS feed</a>
 
-            </li>
-<li>
+
+             
+        <footer id="footer" role="contentinfo">
+            <p>Contents © 2014         <a href="mailto:me@princehonest.com">Amir Sadoughi</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
-            
-            </ul>
+        </footer>
+
         </div>
-        <div id="footer">
-            Contents © 2014         <a href="mailto:me@princehonest.com">Amir Sadoughi</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
-            
-        </div>
-    </div>
+    </section>
     
-            <script src="../assets/js/all-nocdn.js"></script>
+    
+    
+            <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
     
 <!-- Social buttons -->
 <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
@@ -120,9 +129,12 @@
 <!-- End of social buttons -->
 
 
-    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     
-    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
     
 </body>
 </html>
